@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.browser {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #444;
+}
+
+.navbar button {
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.navbar input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+}
+
+iframe {
+  width: 100%;
+  flex: 1;
+  border: none;
+}
